@@ -1,0 +1,11 @@
+// Funkcija prima tocan odgovor na pitanje, uneseni odgovor, preostalo vrijeme, trenutne bodove i modifikator
+
+int AnswerEvaluate(int answer, int input, int time, int points, int modifier) {
+	
+	if (answer=input) {
+		points += time * modifier;
+	}
+	
+	return points;
+	
+}
